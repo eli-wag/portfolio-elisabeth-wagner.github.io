@@ -581,8 +581,16 @@ p{
     text-align: justify;
 }
 
+.btn-video{
+    text-align: center;
+    width: 90%;
+    margin-top: 2%;
+}
+
 .recette{
-    display: flex;
+    display: grid;
+    grid-template: colums: 50% 50%;
+    text-align: center;
 }
 
 .titre-1{
@@ -630,7 +638,9 @@ p{
 }
 
 .snd-main{
-    display: flex;
+    display: grid;
+    grid-template: colums: 50% 50%;
+    text-align: center;
   }
 
 .pub{
@@ -644,6 +654,23 @@ p{
     margin-right: 3%;
     margin-left: 3%;
 }
+
+/*transmedia*/
+
+.btn-presse {
+        grid-column: span 2;
+        grid-row: 1;
+        width: 100%;
+        margin-left: auto;
+        margin-right:auto;
+    }
+
+.btn-itw {
+        grid-column: span 2;
+        grid-row: 1;
+        width: 90%;
+        margin-left: auto;
+    }
 
 /*stage*/
 .videos-stage{
@@ -959,12 +986,6 @@ p{
         margin-left: -2%;
     }
 
-    .btn-video{
-        text-align:center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     .gaufre{
         text-align: center;
     }
@@ -1132,11 +1153,6 @@ p{
         margin-top : 5%;
         margin-bottom: 5%;
     }
-
-    .interview{
-        grid-column: span 2;
-        grid-row: 1;
-    }
     
     .txt_interview{
         grid-column: span 2;
@@ -1169,6 +1185,13 @@ p{
     }
     .biere{
         width: 45%;
+    }
+
+    .btn-itw {
+        grid-column: span 2;
+        grid-row: 1;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     
