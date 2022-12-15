@@ -28,15 +28,15 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
     btn_tp[0].addEventListener('click', () => {
         if(getComputedStyle(tps[0]).display != "grid"){
-            tps[0].style.display = "block";
+          tps[0].style.display = "grid";
         }
         if(getComputedStyle(meca[0]).display != "none"){
             meca[0].style.display = "none";
         }
     });
     btn_meca[0].addEventListener('click', () => {
-        if(getComputedStyle(meca[0]).display != "block"){
-            meca[0].style.display = "block";
+        if(getComputedStyle(meca[0]).display != "grid"){
+            meca[0].style.display = "grid";
         }
         if(getComputedStyle(tps[0]).display != "none"){
             tps[0].style.display = "none";

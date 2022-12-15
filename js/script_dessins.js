@@ -10,9 +10,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
 
     btn_dessin[0].addEventListener('mouseover', () => {
-        if(getComputedStyle(dessins[0]).display = "none"){
-            dessins[0].style.display = "none";
-        }else{
+        if(getComputedStyle(dessins[0]).display != "grid"){
             dessins[0].style.display = "grid";
         }
         if(getComputedStyle(peintures[0]).display != "none"){
@@ -20,9 +18,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         }
     });
     btn_peint[0].addEventListener('mouseover', () => {
-        if(getComputedStyle(peintures[0]).display != "none"){
-            peintures[0].style.display = "none";
-        }else{
+        if(getComputedStyle(peintures[0]).display != "grid"){
             peintures[0].style.display = "grid";
         }
         if(getComputedStyle(dessins[0]).display != "none"){
