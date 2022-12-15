@@ -1,11 +1,12 @@
 window.addEventListener("DOMContentLoaded", (event) => {
-    /*page dessin*/
+    
     let tps = document.getElementsByClassName('tps');
     let meca = document.getElementsByClassName('meca');
     let btn_tp = document.getElementsByClassName('btn_tp');
     let btn_meca = document.getElementsByClassName('btn_meca');
 
-    meca[0].style.display = "none";
+    
+    tps[0].style.display = "none";
 
 
     btn_tp[0].addEventListener('mouseover', () => {
