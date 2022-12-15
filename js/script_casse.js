@@ -48,6 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         console.log(score);
                         if(score == brickRowCount*brickColumnCount) {
                             gagne[0].style.display = 'block';
+                            canvas[0].style.display = 'none';
                             clearInterval(interval); 
                         }
                     }
