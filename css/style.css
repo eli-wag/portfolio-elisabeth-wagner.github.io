@@ -1009,7 +1009,7 @@ p{
     .btn_divers{
         background-color : #000;
         color: #F0F0F0;
-        grid-column: 1;
+        grid-column: 2;
     }
 
     .txt_python{
