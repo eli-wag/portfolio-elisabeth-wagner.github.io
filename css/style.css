@@ -494,8 +494,7 @@ h1{
 /*progra*/
 .mini_jeux{
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 50px;
+    grid-gap: 40px;
   }
 
 .svg{
@@ -1002,12 +1001,7 @@ p{
 
     /*progra*/
 
-    .mini_jeux{
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-      
+ 
     .btn_site{
         background-color : #000;
         color: #F0F0F0;
