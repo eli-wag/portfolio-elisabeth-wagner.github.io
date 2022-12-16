@@ -110,6 +110,7 @@ body {
     background:var(--navbar-bg-color);
     color:var(--navbar-color);
     cursor: none;
+    z-index : 2;
 }
 .navbar__links {
     display:flex;
@@ -998,6 +999,12 @@ p{
       }
 
     /*progra*/
+
+    .graph_bouton{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
       
     .btn_site{
         background-color : #000;
