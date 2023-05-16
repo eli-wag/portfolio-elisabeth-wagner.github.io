@@ -12,10 +12,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
 
     btn_univ[0].addEventListener('mouseover', () => {
-        if(getComputedStyle(trav_univ[0]).display != "none"){
-            trav_univ[0].style.display = "none";
-            btn_univ[0].style.backgroundColor = "#D3D3D3";
-        }else{
+        if(getComputedStyle(trav_univ[0]).display != "grid"){
             trav_univ[0].style.display = "grid";
             btn_univ[0].style.backgroundColor = "#DDA0DD";
         }
@@ -25,10 +22,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         }
     });
     btn_perso[0].addEventListener('mouseover', () => {
-        if(getComputedStyle(trav_perso[0]).display != "none"){
-            trav_perso[0].style.display = "none";
-            btn_perso[0].style.backgroundColor = "#D3D3D3";
-        }else{
+        if(getComputedStyle(trav_perso[0]).display != "grid"){
             trav_perso[0].style.display = "grid";
             btn_perso[0].style.backgroundColor = "#DDA0DD";
         }
