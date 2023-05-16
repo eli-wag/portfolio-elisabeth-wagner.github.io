@@ -7,39 +7,48 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
     
     peintures[0].style.display = "none";
+    btn_dessin[0].style.backgroundColor = "#DDA0DD";
 
 
     btn_dessin[0].addEventListener('mouseover', () => {
         if(getComputedStyle(dessins[0]).display != "grid"){
             dessins[0].style.display = "grid";
+            btn_dessin[0].style.backgroundColor = "#DDA0DD";
         }
         if(getComputedStyle(peintures[0]).display != "none"){
             peintures[0].style.display = "none";
+            btn_peint[0].style.backgroundColor = "#D3D3D3";
         }
     });
     btn_peint[0].addEventListener('mouseover', () => {
         if(getComputedStyle(peintures[0]).display != "grid"){
             peintures[0].style.display = "grid";
+            btn_peint[0].style.backgroundColor = "#DDA0DD";
         }
         if(getComputedStyle(dessins[0]).display != "none"){
             dessins[0].style.display = "none";
+            btn_dessin[0].style.backgroundColor = "#D3D3D3";
         }
     });
 
     btn_dessin[0].addEventListener('click', () => {
         if(getComputedStyle(dessins[0]).display != "grid"){
             dessins[0].style.display = "grid";
+            btn_dessin[0].style.backgroundColor = "#DDA0DD";
         }
         if(getComputedStyle(peintures[0]).display != "none"){
             peintures[0].style.display = "none";
+            btn_peint[0].style.backgroundColor = "#D3D3D3";
         }
     });
     btn_peint[0].addEventListener('click', () => {
         if(getComputedStyle(peintures[0]).display != "grid"){
             peintures[0].style.display = "grid";
+            btn_peint[0].style.backgroundColor = "#DDA0DD";
         }
         if(getComputedStyle(dessins[0]).display != "none"){
             dessins[0].style.display = "none";
+            btn_dessin[0].style.backgroundColor = "#D3D3D3";
         }
     });
 

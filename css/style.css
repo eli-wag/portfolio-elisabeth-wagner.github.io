@@ -493,6 +493,20 @@ h1{
     margin-bottom: auto;
 }
 /*progra*/
+
+
+.menu-unity:hover{
+    filter: brightness(90%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.menu-unity{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 .mini_jeux{
     display: grid;
     grid-gap: 40px;
