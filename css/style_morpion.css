@@ -79,11 +79,21 @@ input{
     font-size: 125%;
 }
 
+.btn-spe{
+    border: none;
+    background-color: #5b7889;
+    width: 150px;
+    height: 100px;
+    font-size: 125%;
+}
+
 .btn:hover{
     background-color: #555d79;
 }
 
-
+.btn-spe:hover{
+    background-color: #555d79;
+}
 
 @media screen and (max-width: 1000px) {
 

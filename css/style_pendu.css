@@ -72,6 +72,10 @@ input{
     background-color: #555d79;
 }
 
+.btn-spe:hover{
+    background-color: #555d79;
+}
+
 .grandDiv{
     background-color: #5b7889;
     margin : 0.25%;
