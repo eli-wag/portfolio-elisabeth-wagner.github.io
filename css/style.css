@@ -682,6 +682,7 @@ p{
         margin-right:auto;
     }
 
+
 .btn-itw {
         grid-column: span 2;
         grid-row: 1;
@@ -1203,6 +1204,11 @@ p{
     }
     .biere{
         width: 45%;
+    }
+
+    .itw{
+        text-align: center;
+        justify-content : center;
     }
 
     .btn-itw {
