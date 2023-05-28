@@ -9,6 +9,11 @@ h1{
     font-size: 500%;
 }
 
+a{
+    color : white;
+    text-decoration:none;
+}
+
 #devine{
     margin-left: 10%;
 }
@@ -61,11 +66,11 @@ input{
 }
 
 .btn-spe{
+    text-align: center;
     border: none;
     background-color: #5b7889;
-    width: 150px;
-    height: 100px;
-    font-size: 125%;
+    font-size: 250%;
+    width : 10%;
 }
 
 .btn:hover{
