@@ -5,10 +5,6 @@
     --font-size: 1rem;
 }
 
-/* video {
-    cursor: none;
-} */
-
 .light-mode {
     --navbar-color: #222;
     --navbar-bg-color: #F0F0F0;
@@ -23,37 +19,9 @@ body {
     background-color: #F0F0F0;
     margin: 0;
     padding: 0;
-    /* cursor: none; */
     height: 100vh;
     overflow-x: hidden;
 }
-
-/* a:hover {
-    cursor: none;
-} */
-
-/* .cursor {
-    width: 40px;
-    height: 40px;
-    border: 1px dashed red;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 10;
-    animation: Anim1 1s infinite alternate;
-    pointer-events: none;
-} */
-
-/* .cursor::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 7px;
-    height: 7px;
-    background: red;
-    border-radius: 50%;
-} */
 
 .expand {
     animation: Anim2 .5s;
@@ -121,7 +89,6 @@ body {
     font-size: 1.1rem;
     background: var(--navbar-bg-color);
     color: var(--navbar-color);
-    /* cursor: none; */
     z-index: 2;
 }
 
@@ -208,7 +175,6 @@ button {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 150%;
-    /* cursor: none; */
 }
 
 button:hover {
@@ -621,7 +587,6 @@ h1 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 150%;
-    /* cursor: none; */
     margin-bottom: 3%;
     grid-row: 4;
 }
@@ -943,7 +908,6 @@ p {
         height: 45px;
         border: none;
         background: transparent;
-        /* cursor: pointer; */
     }
 
     .bar {
