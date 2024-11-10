@@ -2,13 +2,13 @@ window.addEventListener("DOMContentLoaded", (event) => {
     const cursor = document.querySelector('.cursor');
 
     document.addEventListener('mousemove', e => {
-        cursor.setAttribute('style', 'top:'+(e.pageY - 20)+"px; left:"+(e.pageX - 20)+"px;")
+        cursor.setAttribute('style', 'top:' + (e.pageY - 20) + "px; left:" + (e.pageX - 20) + "px;")
     })
 
-    document.addEventListener('click', ()=>{
+    document.addEventListener('click', () => {
         cursor.classList.add('expand');
 
-        setTimeout(()=>{
+        setTimeout(() => {
             cursor.classList.remove("expand");
         }, 500);
     })

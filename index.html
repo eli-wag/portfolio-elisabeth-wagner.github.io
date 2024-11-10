@@ -1,54 +1,61 @@
 <!doctype html>
 <html lang="fr">
-	<head>
+
+<head>
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <script src="./js/script.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script src="./js/script.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<meta charset="UTF-8">
 	<title>Portfolio Elisabeth Wagner</title>
 	<link rel="icon" type="image/png" sizes="16x16" href="./donnees/Images/favicon.png">
 </head>
+
 <body>
 
 	<nav class="navbar dark-mode" role="navigation">
 		<div class="navbar__name"><a href="index.html">Elisabeth Wagner</a></div>
 		<ul class="navbar__links">
 			<li class="navbar__link second"><a href="graphisme.html">Graphisme</a></li>
-			<li class="navbar__link third"><a href="dessin.html">Dessins</a></li>
+			<!-- <li class="navbar__link third"><a href="dessin.html">Dessins</a></li> -->
 			<li class="navbar__link four"><a href="progra.html">Programmation</a></li>
 			<li class="navbar__link fifth"><a href="audiovisuel.html">Audiovisuel</a></li>
-			<li class="navbar__link fifth"><a href="transmedia.html">Transmédia</a></li>
+			<!-- <li class="navbar__link fifth"><a href="transmedia.html">Transmédia</a></li> -->
 			<li class="navbar__link fifth"><a href="stage.html">Stage</a></li>
 		</ul>
 		<button id='burger' class="burger">
 			<span class="bar"></span>
 		</button>
 	</nav>
-	<div class="cursor"></div>
+	<div class="espace"></div>
 	<article class="presentation">
 		<img class="dos" src='./img/index/dos.jpg'>
 		<text class="presentation_txt">
-		Bonjour, je suis Elisabeth Wagner. Récemment diplômée d'un DUT Métiers du Multimédia et de l'Internet, je suis actuellement en troisième année de licence Etudes Visuelles Médias et Arts Numériques à l'Université Gustave Eiffel.<!--J'ai pour ambition d'intégréer l'IMAC afin de dévenir ingénieure multimédia.-->
-		Je suis touche-à-tout et attirée par les formations polyvalentes. A la fois à l'aise avec les sciences et disposant d'un attrait pour l'art, <!--je trouve dans la formation d'ingénieure multimédia proposée par l'IMAC tous les domaines qui me passionnent.--> je désire développer mes connaissances et compétences dans ces deux domaines.
-		Avec ce site, je vous invite à visiter mon univers au travers de mes réalisations et en apprendre plus sur moi. J'espère ici vous convaincre de ma motivation et de ma créativité.<!--de la légitimité de ma place au sein de l'école.-->
+			Je suis Elisabeth Wagner. Actuellement en deuxième année de formation ingénieur Image Multimédia Audiovisuel
+			Communicatiaon (IMAC) à l'école ESIEE Paris, je recherche un stage afin de poursuivre ma professionalisation
+			dans les domaines que j'étudie. Mes précédentes formations (DUT Métiers du Multimédia et de l'Internet et
+			licence Etudes Visuelles Médias et Arts Numériques) m'ont offert l'opportunité de réaliser déjà deux stages
+			qui ont été des expériences très enrichissantes et déterminantes dans mon choix de poursuite d'études. A la
+			fois polyvalente et curieuse, je suis très motivée à l'idée de vivre cette nouvelle expérience et d'apporter
+			mes savoirs-faire tout en découvrant de nouveux domaines.
 		</text>
 	</article>
-	<div class="div_noir graph">
+	<!-- <div class="div_noir graph">
 		<img class="parcours" src='./img/index/parcours.png'>
-	</div>
+	</div> -->
 
 	<div class="loader-wrapper">
 		<span class="loader"><span class="loader-inner"></span></span>
 	</div>
 
 	<script>
-		$(window).on("load",function(){
+		$(window).on("load", function () {
 			$(".loader-wrapper").fadeOut("slow");
-	});
+		});
 	</script>
-<footer> Copyright © 2022 WAGNER</footer>
+	<footer> Copyright © 2022 WAGNER</footer>
 	<!-- Commentaire -->
-	
+
 </body>
+
 </html>
