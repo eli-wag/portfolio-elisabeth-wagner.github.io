@@ -296,6 +296,10 @@ button:hover {
     margin-right: 1%;
 }
 
+.il {
+    object-fit: cover;
+}
+
 h1 {
     font-size: 200%;
     text-align: center;
@@ -994,71 +998,28 @@ p {
     }
 
     /*graphisme*/
-    .graph-bouton {
-        background-color: #F0F0F0;
-        display: grid;
-        text-align: center;
-    }
-
-    .btn_univ {
-        background-color: #000;
-        color: #F0F0F0;
-        grid-column: 1;
-    }
-
-    .btn_perso {
-        background-color: #000;
-        color: #F0F0F0;
-        grid-column: 2;
-    }
-
-    .graph_line1 {
+    .illustrator {
         display: block;
-    }
-
-    .img-triangulation {
-        text-align: center;
-        margin: auto;
-        display: flex;
-    }
-
-    .expression {
-        margin-top: 10%;
-    }
-
-
-    .affiche {
-        width: 40%;
+        width: 100%;
+        padding-bottom: 5%;
+        overflow: hidden;
     }
 
     .paysages {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-
-    .esp-graph {
-        height: 5%;
-    }
-
-    .crepuscule {
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-
-    .il {
-        height: auto;
-        width: 100%
-    }
-
-    .video_univers {
+        gap: 10px;
+        height: 100%;
         width: 100%;
     }
 
-    .txt_univers {
-        text-align: justify;
+    .il {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* Remplit chaque cellule sans distorsion */
+        box-sizing: border-box;
     }
-
 
 
     /*dessins*/
@@ -1307,29 +1268,24 @@ p {
     /*graphisme*/
 
     .illustrator {
-        height: 100%;
+        display: block;
+        width: 100%;
+        padding-bottom: 5%;
+        overflow: hidden;
     }
 
     .paysages {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        text-align: center;
-    }
-
-    .esp-graph {
-        height: 5%;
-    }
-
-    .crepuscule {
-        margin-top: auto;
-        margin-bottom: auto;
+        gap: 10px;
+        height: 100%;
+        width: 100%;
     }
 
     .il {
-        width: 16em;
+        width: 100%;
         height: 100%;
-        margin-left: auto;
-        margin-right: auto;
-
+        object-fit: cover;
+        box-sizing: border-box;
     }
 }
