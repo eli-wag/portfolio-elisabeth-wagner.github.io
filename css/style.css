@@ -1021,6 +1021,11 @@ p {
         box-sizing: border-box;
     }
 
+    .video_univers {
+
+        width: 100%;
+    }
+
 
     /*dessins*/
     .btn_dessin {
@@ -1127,6 +1132,10 @@ p {
         width: 100%;
     }
 
+    .titre_tp {
+        color: white;
+        margin-bottom: 5%;
+    }
 }
 
 /*  Medium device - Bonus */
@@ -1287,5 +1296,10 @@ p {
         height: 100%;
         object-fit: cover;
         box-sizing: border-box;
+    }
+
+    .video_univers {
+
+        width: 100%;
     }
 }
