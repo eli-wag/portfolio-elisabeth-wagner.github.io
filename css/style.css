@@ -336,6 +336,63 @@ h1 {
     width: 25%;
 }
 
+
+@keyframes apparitionText {
+    from {
+        opacity : 0%;
+    }
+
+    to {
+        opacity : 100%;
+    }
+}
+
+@keyframes opacityImg {
+    from {
+        opacity : 100%;
+    }
+
+    to {
+        opacity : 50%;
+    }
+}
+
+.velocitimac{
+    width : 50vw;
+    text-align : center;
+    display: flex;
+    margin-right : auto;
+    margin-left : auto;
+    justify-content: center;
+    background-color: black;
+}
+
+.titre_velocitimac{
+    position : absolute;
+    display: flex;
+    color : white;
+    font-size: 300%;
+    text-overflow: hidden;
+    opacity : 100%;
+}
+
+.img_velocitimac{
+    width : 100%;
+}
+
+/* .titre_velocitimac:hover {
+    animation-name: apparitionText;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+} */
+
+.img_velocitimac:hover{
+    animation-name: opacityImg;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+
+
 /*dessin*/
 
 #slider_dessin {
@@ -700,6 +757,11 @@ p {
 }
 
 /*stage*/
+.consigne{
+    margin : 2%;
+}
+
+
 .videos-stage {
     margin-top: 2%;
     width: 90%;
@@ -1026,6 +1088,17 @@ p {
         width: 100%;
     }
 
+    .velocitimac{
+        width: 100%;
+    }
+    
+    .titre_velocitimac{
+        color : white;
+        font-size: 200%;
+        opacity : 100%;
+    }
+   
+
 
     /*dessins*/
     .btn_dessin {
@@ -1102,7 +1175,6 @@ p {
         margin: 1%;
     }
 
-    /*stage*/
     .btn_tp {
         background-color: #000;
         color: #F0F0F0;
@@ -1135,6 +1207,10 @@ p {
     .titre_tp {
         color: white;
         margin-bottom: 5%;
+    }
+
+    .consigne{
+        margin : 4%;
     }
 }
 
@@ -1302,4 +1378,9 @@ p {
 
         width: 100%;
     }
+
+    .velocitimac{
+        width: 100%;
+    }
+
 }
